@@ -1,0 +1,26 @@
+{
+    "name": "tinycms/framework",
+    "description": "The Tiny CMS framework.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jose Perez",
+            "email": "japerman@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^4.0",
+        "symfony/finder": "^4.0",
+        "symfony/yaml": "^4.0",
+        "erusev/parsedown": "^1.6",
+        "philo/laravel-blade": "^3.1"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Tiny\\": "src/"
+        }
+    }
+}
