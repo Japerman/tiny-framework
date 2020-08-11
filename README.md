@@ -1,5 +1,5 @@
 # tiny-framework
 https://github.com/Japerman/tiny-framework
 
-## Composer
+# Composer
 composer require tinycms/framework
